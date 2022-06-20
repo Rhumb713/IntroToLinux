@@ -1,0 +1,13 @@
+#!/bin/bash
+
+pip3 install --upgrade pip
+pip3 install virtualenv
+
+#jupyter
+cd ~
+mkdir notebook
+cd notebook
+
+virtualenv jupyterenv
+source jupyterenv/bin/activate
+pip install jupyter
